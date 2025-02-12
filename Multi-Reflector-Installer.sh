@@ -80,7 +80,7 @@ echo "Installing dependicies..........."
 echo "------------------------------------------------------------------------------"
 apt update
 apt -y install $DEP
-a2enmod php8.2
+a2enmod php8.0
 echo "------------------------------------------------------------------------------"
 #Create the install directory and app directories
 mkdir -p $XLXINTDIR
